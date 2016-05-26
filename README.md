@@ -1,5 +1,15 @@
 # File_Format_Iaf
 
+
+
+This class can be used to parse and generate Outlook Express IAF configuration files
+
+This class is php port of Perl package : Win32-Outlook-IAF http://search.cpan.org/dist/Win32-Outlook-IAF
+
+All regards to Przemek Czerkas
+
+Usage
+
 require_once 'File_Format_Iaf.php';
 
 $iaf = new File_Format_Iaf();
